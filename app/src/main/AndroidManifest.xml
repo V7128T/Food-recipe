@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Recipe Heaven"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GroupAssignment_Beta">
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Shopping_cart"
+            android:exported="false" />
+        <activity
+            android:name=".Bookmark"
+            android:exported="false" />
+        <activity
+            android:name=".GetStarted"
+            android:exported="false" />
+        <activity
+            android:name=".RecipeDetails"
+            android:exported="false" />
+        <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".SearchPage"
+            android:exported="false" />
+        <activity
+            android:name=".SetupDone"
+            android:exported="false" />
+        <activity
+            android:name=".Vegetarian"
+            android:exported="false" />
+        <activity
+            android:name=".Halal"
+            android:exported="false" />
+        <activity
+            android:name=".CookingLevel"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
